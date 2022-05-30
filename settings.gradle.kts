@@ -1,1 +1,1 @@
-rootProject.name = "CotubeMuisc_Server"
+rootProject.name = "CotubeMusic_Server"

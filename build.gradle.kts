@@ -21,6 +21,12 @@ repositories {
 dependencies {
     implementation("io.ktor:ktor-server-core:$ktor_version")
     implementation("io.ktor:ktor-serialization:$ktor_version")
+    implementation("org.jetbrains.exposed:exposed-core:0.37.3")
+    implementation("org.jetbrains.exposed:exposed-dao:0.37.3")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.37.3")
+    implementation("org.jetbrains.exposed:exposed-java-time:0.37.3")
+    implementation("com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre11")
+    implementation("com.zaxxer:HikariCP:5.0.1")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
     implementation("io.ktor:ktor-server-host-common:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
